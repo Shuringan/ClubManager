@@ -11,4 +11,8 @@ cmake ..
 cmake --build .
 ```
 
-После сборки исполняемый файл `ClubManager` появится в корневой папке проекта.
+После сборки исполняемый файл `ClubManager` появится в корневой папке проекта. 
+
+## Запуск проекта в Bash
+```bash
+ClubManager.exe tests\test_file.txt
