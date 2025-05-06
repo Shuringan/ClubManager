@@ -1,0 +1,3 @@
+C:/Users/Gosha/Downloads/ClubManager/build/CMakeFiles/ClubManager.dir
+C:/Users/Gosha/Downloads/ClubManager/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Gosha/Downloads/ClubManager/build/CMakeFiles/ZERO_CHECK.dir

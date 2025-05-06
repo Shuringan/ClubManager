@@ -1,0 +1,10 @@
+^C:\USERS\GOSHA\DOWNLOADS\CLUBMANAGER\BUILD\CMAKEFILES\5D84545988914A979AA1C16D9DA42093\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gosha/Downloads/ClubManager -BC:/Users/Gosha/Downloads/ClubManager/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Gosha/Downloads/ClubManager/build/ClubManager.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
